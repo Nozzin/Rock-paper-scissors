@@ -16,16 +16,22 @@ def main():
             computer = computer_choice()
             print('Rock!')
             time.sleep(.5)
+            
             print('Paper!')
             time.sleep(.5)
+            
             print('Scissors!')
             time.sleep(.5)
+            
             print('Shoot!')
             time.sleep(.5)
+            
             print('I have chosen',computer,'!')
             time.sleep(.5)
+            
             print('You chose',player,'.')
             time.sleep(.5)
+            
             if player == ("rock" or "Rock"):
                 if computer == ('rock'):
                     print('Damn. A tie! Your good.')
@@ -64,6 +70,7 @@ def main():
                     print('Pft. I let you win that one.')
                     time.sleep(1)
                     playerW += 1
+                    
             print('Computer:',computerW)
             print('Player:',playerW)
                     
