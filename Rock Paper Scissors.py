@@ -105,8 +105,5 @@ def computer_choice():
         choice = 'scissors'
     return choice
     
-    
-
-
 
 main()
